@@ -1,0 +1,27 @@
+.Header
+    width: 100%
+    height: var(--header-height)
+    position: fixed
+    display: flex
+    align-items: center
+    padding-left: 1rem
+    padding-right: 400px
+    z-index: 1
+    color: white
+    background: linear-gradient( black, transparent)
+    &__logo
+        font-size: 3rem
+        color: white
+
+    &__nav
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: auto
+        p
+            padding: 0 1rem
+            transition: .2s
+            font-size: 1.5rem
+
+            &:hover
+                transform: scale(1.3)
